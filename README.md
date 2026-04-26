@@ -31,7 +31,7 @@
 
 ## Demo Video | فيديو العرض
 
-[https://github.com/6x-u/NetVision/assets/](https://github.com/6x-u/NetVision/tree/main/assets)ms.mp4
+https://github.com/6x-u/NetVision/tree/main/assets/ms.mp4
 
 <p align="center">
   <a href="assets/ms.mp4">
