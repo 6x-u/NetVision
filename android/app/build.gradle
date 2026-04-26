@@ -1,0 +1,44 @@
+// NetVision - build.gradle (app)
+// Developer: MERO:TG@QP4RM
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 34
+    ndkVersion "26.1.10909125"
+
+    defaultConfig {
+        applicationId "com.netvision.app"
+        minSdkVersion 24
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0.0"
+
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
+
+        externalNativeBuild {
+            ndkBuild {
+                arguments "APP_STL=c++_shared"
+            }
+        }
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path "src/main/jni/Android.mk"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

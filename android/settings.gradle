@@ -1,0 +1,5 @@
+// NetVision - settings.gradle
+// Developer: MERO:TG@QP4RM
+
+rootProject.name = 'NetVision'
+include ':app'
