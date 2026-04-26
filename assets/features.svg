@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D0D14;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#12122a;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" fill="url(#bg3)" rx="12"/>
+  <text x="400" y="35" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00c8ff" text-anchor="middle">Features</text>
+
+  <!-- Row 1 -->
+  <rect x="30" y="55" width="170" height="110" rx="8" fill="#0d1a0d" stroke="#00c853" stroke-width="1.5"/>
+  <circle cx="115" cy="80" r="12" fill="#00c853" opacity="0.3"/>
+  <text x="115" y="84" font-family="monospace" font-size="16" fill="#00c853" text-anchor="middle">&#9673;</text>
+  <text x="115" y="105" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#00c853" text-anchor="middle">Live Capture</text>
+  <text x="115" y="122" font-family="Segoe UI, sans-serif" font-size="10" fill="#77aa77" text-anchor="middle">Real-time packet</text>
+  <text x="115" y="136" font-family="Segoe UI, sans-serif" font-size="10" fill="#77aa77" text-anchor="middle">capture with libpcap</text>
+  <text x="115" y="155" font-family="Segoe UI, sans-serif" font-size="9" fill="#558855" text-anchor="middle">التقاط حي للباكتات</text>
+
+  <rect x="220" y="55" width="170" height="110" rx="8" fill="#0d0d1a" stroke="#0078ff" stroke-width="1.5"/>
+  <circle cx="305" cy="80" r="12" fill="#0078ff" opacity="0.3"/>
+  <text x="305" y="84" font-family="monospace" font-size="16" fill="#0078ff" text-anchor="middle">&#9707;</text>
+  <text x="305" y="105" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#0078ff" text-anchor="middle">Dynamic Graph</text>
+  <text x="305" y="122" font-family="Segoe UI, sans-serif" font-size="10" fill="#7799cc" text-anchor="middle">Force-directed layout</text>
+  <text x="305" y="136" font-family="Segoe UI, sans-serif" font-size="10" fill="#7799cc" text-anchor="middle">with animated packets</text>
+  <text x="305" y="155" font-family="Segoe UI, sans-serif" font-size="9" fill="#556688" text-anchor="middle">رسم بياني ديناميكي</text>
+
+  <rect x="410" y="55" width="170" height="110" rx="8" fill="#1a1a0d" stroke="#ffcc00" stroke-width="1.5"/>
+  <circle cx="495" cy="80" r="12" fill="#ffcc00" opacity="0.3"/>
+  <text x="495" y="84" font-family="monospace" font-size="16" fill="#ffcc00" text-anchor="middle">&#9202;</text>
+  <text x="495" y="105" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#ffcc00" text-anchor="middle">Slow Motion</text>
+  <text x="495" y="122" font-family="Segoe UI, sans-serif" font-size="10" fill="#aaaa77" text-anchor="middle">Slow down network</text>
+  <text x="495" y="136" font-family="Segoe UI, sans-serif" font-size="10" fill="#aaaa77" text-anchor="middle">to watch each packet</text>
+  <text x="495" y="155" font-family="Segoe UI, sans-serif" font-size="9" fill="#888855" text-anchor="middle">تبطيء حركة الشبكة</text>
+
+  <rect x="600" y="55" width="170" height="110" rx="8" fill="#1a0d0d" stroke="#ff4444" stroke-width="1.5"/>
+  <circle cx="685" cy="80" r="12" fill="#ff4444" opacity="0.3"/>
+  <text x="685" y="84" font-family="monospace" font-size="16" fill="#ff4444" text-anchor="middle">&#9724;</text>
+  <text x="685" y="105" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#ff4444" text-anchor="middle">Time Freeze</text>
+  <text x="685" y="122" font-family="Segoe UI, sans-serif" font-size="10" fill="#cc7777" text-anchor="middle">Freeze time and</text>
+  <text x="685" y="136" font-family="Segoe UI, sans-serif" font-size="10" fill="#cc7777" text-anchor="middle">analyze current state</text>
+  <text x="685" y="155" font-family="Segoe UI, sans-serif" font-size="9" fill="#885555" text-anchor="middle">تجميد الزمن والتحليل</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="185" width="170" height="110" rx="8" fill="#1a0d1a" stroke="#b300ff" stroke-width="1.5"/>
+  <circle cx="115" cy="210" r="12" fill="#b300ff" opacity="0.3"/>
+  <text x="115" y="214" font-family="monospace" font-size="16" fill="#b300ff" text-anchor="middle">&#9654;</text>
+  <text x="115" y="235" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#b300ff" text-anchor="middle">Replay System</text>
+  <text x="115" y="252" font-family="Segoe UI, sans-serif" font-size="10" fill="#aa77cc" text-anchor="middle">Record and replay</text>
+  <text x="115" y="266" font-family="Segoe UI, sans-serif" font-size="10" fill="#aa77cc" text-anchor="middle">sessions at any speed</text>
+  <text x="115" y="285" font-family="Segoe UI, sans-serif" font-size="9" fill="#885588" text-anchor="middle">تسجيل واعادة التشغيل</text>
+
+  <rect x="220" y="185" width="170" height="110" rx="8" fill="#0d1a1a" stroke="#00cccc" stroke-width="1.5"/>
+  <circle cx="305" cy="210" r="12" fill="#00cccc" opacity="0.3"/>
+  <text x="305" y="214" font-family="monospace" font-size="16" fill="#00cccc" text-anchor="middle">&#9881;</text>
+  <text x="305" y="235" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#00cccc" text-anchor="middle">Session Tracking</text>
+  <text x="305" y="252" font-family="Segoe UI, sans-serif" font-size="10" fill="#77aaaa" text-anchor="middle">Track connections</text>
+  <text x="305" y="266" font-family="Segoe UI, sans-serif" font-size="10" fill="#77aaaa" text-anchor="middle">with full statistics</text>
+  <text x="305" y="285" font-family="Segoe UI, sans-serif" font-size="9" fill="#558888" text-anchor="middle">تتبع الجلسات والاحصائيات</text>
+
+  <rect x="410" y="185" width="170" height="110" rx="8" fill="#1a0d0a" stroke="#ff8800" stroke-width="1.5"/>
+  <circle cx="495" cy="210" r="12" fill="#ff8800" opacity="0.3"/>
+  <text x="495" y="214" font-family="monospace" font-size="16" fill="#ff8800" text-anchor="middle">&#9888;</text>
+  <text x="495" y="235" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#ff8800" text-anchor="middle">Anomaly Detection</text>
+  <text x="495" y="252" font-family="Segoe UI, sans-serif" font-size="10" fill="#aa8844" text-anchor="middle">DDoS, high latency</text>
+  <text x="495" y="266" font-family="Segoe UI, sans-serif" font-size="10" fill="#aa8844" text-anchor="middle">packet loss detection</text>
+  <text x="495" y="285" font-family="Segoe UI, sans-serif" font-size="9" fill="#886644" text-anchor="middle">كشف الهجمات والمشاكل</text>
+
+  <rect x="600" y="185" width="170" height="110" rx="8" fill="#0d1a0d" stroke="#00c853" stroke-width="1.5"/>
+  <circle cx="685" cy="210" r="12" fill="#00c853" opacity="0.3"/>
+  <text x="685" y="214" font-family="monospace" font-size="16" fill="#00c853" text-anchor="middle">&#9783;</text>
+  <text x="685" y="235" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#00c853" text-anchor="middle">Smart Filters</text>
+  <text x="685" y="252" font-family="Segoe UI, sans-serif" font-size="10" fill="#77aa77" text-anchor="middle">Filter by IP, Port</text>
+  <text x="685" y="266" font-family="Segoe UI, sans-serif" font-size="10" fill="#77aa77" text-anchor="middle">Protocol, Errors</text>
+  <text x="685" y="285" font-family="Segoe UI, sans-serif" font-size="9" fill="#558855" text-anchor="middle">فلترة ذكية</text>
+</svg>

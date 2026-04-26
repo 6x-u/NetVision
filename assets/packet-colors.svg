@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120">
+  <rect width="800" height="120" fill="#0D0D14" rx="12"/>
+  <text x="400" y="30" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#8888aa" text-anchor="middle">Packet Status Colors | ألوان حالة الباكتات</text>
+
+  <circle cx="100" cy="72" r="20" fill="#00c853"/>
+  <text x="100" y="77" font-family="monospace" font-size="11" fill="#fff" text-anchor="middle">OK</text>
+  <text x="100" y="108" font-family="Segoe UI, sans-serif" font-size="11" fill="#00c853" text-anchor="middle">Normal | طبيعي</text>
+
+  <circle cx="270" cy="72" r="20" fill="#ffcc00"/>
+  <text x="270" y="77" font-family="monospace" font-size="11" fill="#000" text-anchor="middle">SLOW</text>
+  <text x="270" y="108" font-family="Segoe UI, sans-serif" font-size="11" fill="#ffcc00" text-anchor="middle">Slow | بطيء</text>
+
+  <circle cx="440" cy="72" r="20" fill="#ff4444"/>
+  <text x="440" y="77" font-family="monospace" font-size="11" fill="#fff" text-anchor="middle">ERR</text>
+  <text x="440" y="108" font-family="Segoe UI, sans-serif" font-size="11" fill="#ff4444" text-anchor="middle">Error | خطأ</text>
+
+  <circle cx="610" cy="72" r="20" fill="#ff8800"/>
+  <text x="610" y="77" font-family="monospace" font-size="11" fill="#fff" text-anchor="middle">RTX</text>
+  <text x="610" y="108" font-family="Segoe UI, sans-serif" font-size="11" fill="#ff8800" text-anchor="middle">Retransmit | اعادة</text>
+
+  <circle cx="750" cy="72" r="20" fill="#888888"/>
+  <text x="750" y="77" font-family="monospace" font-size="11" fill="#fff" text-anchor="middle">TMO</text>
+  <text x="750" y="108" font-family="Segoe UI, sans-serif" font-size="11" fill="#888888" text-anchor="middle">Timeout | انتهاء</text>
+</svg>

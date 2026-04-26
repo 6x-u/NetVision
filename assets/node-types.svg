@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <rect width="600" height="120" fill="#0D0D14" rx="12"/>
+  <text x="300" y="30" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#8888aa" text-anchor="middle">Node Types | أنواع النقاط</text>
+
+  <circle cx="120" cy="72" r="22" fill="#00c853" opacity="0.9"/>
+  <text x="120" y="77" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle">CLIENT</text>
+  <text x="120" y="108" font-family="Segoe UI, sans-serif" font-size="11" fill="#00c853" text-anchor="middle">Client | عميل</text>
+
+  <circle cx="300" cy="72" r="22" fill="#0078ff" opacity="0.9"/>
+  <text x="300" y="77" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle">SERVER</text>
+  <text x="300" y="108" font-family="Segoe UI, sans-serif" font-size="11" fill="#0078ff" text-anchor="middle">Server | سيرفر</text>
+
+  <circle cx="480" cy="72" r="22" fill="#b300ff" opacity="0.9"/>
+  <text x="480" y="77" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle">API</text>
+  <text x="480" y="108" font-family="Segoe UI, sans-serif" font-size="11" fill="#b300ff" text-anchor="middle">API | واجهة</text>
+</svg>

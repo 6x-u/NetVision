@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D0D14;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#12122a;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg2)" rx="12"/>
+  <text x="400" y="35" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00c8ff" text-anchor="middle">Architecture Overview</text>
+
+  <!-- C Core -->
+  <rect x="40" y="60" width="220" height="180" rx="8" fill="#0d1a0d" stroke="#00c853" stroke-width="2"/>
+  <text x="150" y="85" font-family="monospace" font-size="14" font-weight="bold" fill="#00c853" text-anchor="middle">C Core</text>
+  <text x="150" y="110" font-family="monospace" font-size="11" fill="#77aa77" text-anchor="middle">nv_capture.c</text>
+  <text x="150" y="128" font-family="monospace" font-size="11" fill="#77aa77" text-anchor="middle">nv_graph.c</text>
+  <text x="150" y="146" font-family="monospace" font-size="11" fill="#77aa77" text-anchor="middle">nv_session.c</text>
+  <text x="150" y="164" font-family="monospace" font-size="11" fill="#77aa77" text-anchor="middle">nv_replay.c</text>
+  <text x="150" y="190" font-family="monospace" font-size="10" fill="#558855" text-anchor="middle">libpcap | ring buffer</text>
+  <text x="150" y="206" font-family="monospace" font-size="10" fill="#558855" text-anchor="middle">force-directed layout</text>
+  <text x="150" y="222" font-family="monospace" font-size="10" fill="#558855" text-anchor="middle">session tracking</text>
+
+  <!-- C++ Engine -->
+  <rect x="290" y="60" width="220" height="180" rx="8" fill="#0d0d1a" stroke="#0078ff" stroke-width="2"/>
+  <text x="400" y="85" font-family="monospace" font-size="14" font-weight="bold" fill="#0078ff" text-anchor="middle">C++ Engine</text>
+  <text x="400" y="110" font-family="monospace" font-size="11" fill="#7799cc" text-anchor="middle">nv_engine.cpp</text>
+  <text x="400" y="128" font-family="monospace" font-size="11" fill="#7799cc" text-anchor="middle">ImGui Rendering</text>
+  <text x="400" y="146" font-family="monospace" font-size="11" fill="#7799cc" text-anchor="middle">GLFW + OpenGL</text>
+  <text x="400" y="172" font-family="monospace" font-size="10" fill="#556688" text-anchor="middle">animated packets</text>
+  <text x="400" y="188" font-family="monospace" font-size="10" fill="#556688" text-anchor="middle">node visualization</text>
+  <text x="400" y="204" font-family="monospace" font-size="10" fill="#556688" text-anchor="middle">interactive controls</text>
+  <text x="400" y="220" font-family="monospace" font-size="10" fill="#556688" text-anchor="middle">slow motion | freeze</text>
+
+  <!-- Python Analysis -->
+  <rect x="540" y="60" width="220" height="180" rx="8" fill="#1a0d1a" stroke="#b300ff" stroke-width="2"/>
+  <text x="650" y="85" font-family="monospace" font-size="14" font-weight="bold" fill="#b300ff" text-anchor="middle">Python Analysis</text>
+  <text x="650" y="110" font-family="monospace" font-size="11" fill="#aa77cc" text-anchor="middle">nv_analyzer.py</text>
+  <text x="650" y="128" font-family="monospace" font-size="11" fill="#aa77cc" text-anchor="middle">nv_pcap_reader.py</text>
+  <text x="650" y="146" font-family="monospace" font-size="11" fill="#aa77cc" text-anchor="middle">nv_cli.py</text>
+  <text x="650" y="172" font-family="monospace" font-size="10" fill="#885588" text-anchor="middle">anomaly detection</text>
+  <text x="650" y="188" font-family="monospace" font-size="10" fill="#885588" text-anchor="middle">DDoS detection</text>
+  <text x="650" y="204" font-family="monospace" font-size="10" fill="#885588" text-anchor="middle">bandwidth analysis</text>
+  <text x="650" y="220" font-family="monospace" font-size="10" fill="#885588" text-anchor="middle">report generation</text>
+
+  <!-- Arrows -->
+  <line x1="260" y1="150" x2="290" y2="150" stroke="#00c8ff" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="510" y1="150" x2="540" y2="150" stroke="#00c8ff" stroke-width="2"/>
+
+  <!-- Platform boxes -->
+  <rect x="40" y="270" width="150" height="60" rx="6" fill="#0a1a0a" stroke="#00c853" stroke-width="1.5"/>
+  <text x="115" y="295" font-family="monospace" font-size="12" font-weight="bold" fill="#00c853" text-anchor="middle">Linux</text>
+  <text x="115" y="315" font-family="monospace" font-size="10" fill="#558855" text-anchor="middle">netvision + .so</text>
+
+  <rect x="220" y="270" width="150" height="60" rx="6" fill="#0d0d1a" stroke="#0078ff" stroke-width="1.5"/>
+  <text x="295" y="295" font-family="monospace" font-size="12" font-weight="bold" fill="#0078ff" text-anchor="middle">Windows</text>
+  <text x="295" y="315" font-family="monospace" font-size="10" fill="#556688" text-anchor="middle">.exe + .dll</text>
+
+  <rect x="400" y="270" width="150" height="60" rx="6" fill="#1a0d0a" stroke="#ff8800" stroke-width="1.5"/>
+  <text x="475" y="295" font-family="monospace" font-size="12" font-weight="bold" fill="#ff8800" text-anchor="middle">Android</text>
+  <text x="475" y="315" font-family="monospace" font-size="10" fill="#886644" text-anchor="middle">.apk + .so (32/64)</text>
+
+  <rect x="580" y="270" width="180" height="60" rx="6" fill="#1a0d1a" stroke="#b300ff" stroke-width="1.5"/>
+  <text x="670" y="295" font-family="monospace" font-size="12" font-weight="bold" fill="#b300ff" text-anchor="middle">Python CLI</text>
+  <text x="670" y="315" font-family="monospace" font-size="10" fill="#885588" text-anchor="middle">pcap analysis + reports</text>
+
+  <!-- Protocols -->
+  <rect x="40" y="355" width="720" height="50" rx="6" fill="#0a0a14" stroke="#333355" stroke-width="1"/>
+  <text x="400" y="375" font-family="monospace" font-size="12" font-weight="bold" fill="#6666aa" text-anchor="middle">Supported Protocols</text>
+  <text x="400" y="395" font-family="monospace" font-size="11" fill="#555577" text-anchor="middle">TCP | UDP | HTTP | HTTPS | DNS | ICMP | ARP | WebSocket</text>
+</svg>
