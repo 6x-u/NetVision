@@ -317,7 +317,7 @@ The Windows build produces `nvcore.dll` and `nvcore.lib`. For full packet captur
 - على Windows تحتاج تشغيلها كـ Administrator
 - على Android تحتاج صلاحية INTERNET و ACCESS_NETWORK_STATE
 - ملف ImGui يتم سحبه من GitHub ولا يتم تضمينه بالريبو
-- جميع الكلاسات والكود من كتابة المطور MERO:TG@QP4RM
+المطور MERO: TG @QP4RM
 
 </div>
 
